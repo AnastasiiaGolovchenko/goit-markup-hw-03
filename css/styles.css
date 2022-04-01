@@ -286,12 +286,6 @@ p {
   background-color: var(--butter-shadow);
 }
 
-/*СЕКЦІЯ about*/
-.title-none {
-  color: var(--main-colot-wight);
-  height: 94px;
-}
-
 .subtitle {
   font-weight: bold;
   font-size: 14px;
@@ -376,8 +370,6 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--main-txt);
-
-  padding-top: 30px;
 }
 
 .team-text {
@@ -390,7 +382,6 @@ p {
 
   color: var(--secondary-txt);
 
-  padding-bottom: 30px;
   padding-top: 10px;
 }
 
@@ -411,6 +402,11 @@ p {
 /*відступи*/
 .team-item {
   margin-right: 30px;
+}
+
+.team-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*ПОРТФОЛІО*/
@@ -519,14 +515,14 @@ p {
 
 /* ПІДВАЛ*/
 .footer-address {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-colot-wight);
-
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .footer-contact {
@@ -536,8 +532,7 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-txt);
-
-  padding-top: 9px;
+  margin-top: 9px;
 }
 
 .footer {
